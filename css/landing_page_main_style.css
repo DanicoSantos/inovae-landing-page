@@ -1,0 +1,210 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/* Header */
+
+#inov-header {
+  height: 80vh;
+  width: 100%;
+}
+
+/* Banner */
+#inov-banner {
+  background-image: url('/img/banner-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+#inov-banner .post-it {
+  height: 150px;
+}
+
+/* Info */
+#inov-info {
+  width: 65%;
+  margin: 60px  auto;
+}
+
+/* CTA */
+
+#inov-cta {
+  background-image: url('/img/cta-background.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 300px;
+  
+}
+
+#inov-cta .d-flex {  
+  height: 60%;
+}
+
+#inov-cta h3 {
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+#inov-cta .btn-light {
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  border-radius: 1rem;
+}
+
+/* Program */
+
+#inov-program {
+  background-image: url('/img/frame-program.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 750px 520px;
+  height: 700px;
+  margin: 60px auto;
+}
+
+#inov-program .program-list {
+  width: 65%;
+}
+
+#inov-program .program-title {
+  position: relative;
+  right: 125px;
+  
+}
+
+
+.program-list ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+  font-size: 1.2rem;
+}
+
+/* Team */
+
+#inov-team {
+  width: 65%;
+  margin: 60px auto;
+}
+
+#inov-team .title {
+  background-image: url('/img/inov-team.png');
+  background-repeat: no-repeat;
+
+}
+
+#inov-team .team-member {
+  height: 500px;
+}
+
+/* Testemonials */
+
+#inov-testemonials {
+  width: 65%;
+  margin: 60px auto;
+}
+
+#inov-testemonials .title {
+  background-image: url('/img/testemonials.png');
+  background-repeat: no-repeat;
+
+}
+
+.testemonial-text {
+  font-style: italic;
+}
+
+
+/* Pricing */
+
+#inov-pricing {
+  width: 65%;
+  margin: 60px auto;
+}
+
+.pricing {
+  line-height: 2rem;
+}
+
+.pricing-date {
+  font-size: 4rem;
+  font-weight: bold; 
+  margin-bottom: 0;
+}
+
+.pricing-month {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.price-big {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 3rem;
+
+
+}
+
+.price {
+  height: 80px;
+}
+
+.price-disable { 
+  height: 95px;
+  opacity: 0.6;
+}
+
+.price-disable .price-big {
+  font-size: 3rem;
+}
+
+.border-pricing {
+  border-width: 2px !important;
+  border-color: rgba(0, 0, 0, 0.603) !important;
+
+}
+
+.price-shadow {
+  box-shadow: 15px 5px 20px #0000003a;
+}
+
+
+
+/* Utilities */
+.bg-yellow {
+  background-color: #FBB51E;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-20 {
+  width: 80px;
+  margin-top: 10px;  
+}
+
+.w-65 {
+  width: 50%;
+  margin: auto;
+}
+
+.bold {
+  font-weight: 800;
+} 
+
+.border-thick {
+  border-width: 2px !important;
+  border-color: #e7e4e4 !important;
+}
