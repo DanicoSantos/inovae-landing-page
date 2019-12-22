@@ -176,7 +176,7 @@ body {
 }
 
 .price-shadow {
-  box-shadow: 15px 5px 20px #0000003a;
+  box-shadow: 1px 5px 20px #0000003a;
 }
 
 
@@ -206,5 +206,5 @@ body {
 
 .border-thick {
   border-width: 2px !important;
-  border-color: #e7e4e4 !important;
+  border-color: #000000 !important;
 }
