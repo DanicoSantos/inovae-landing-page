@@ -1,7 +1,25 @@
 @media (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+
   body {
     font-size: 12px;
   }
+
+  .text-lg-right {
+  text-align: left;
+}
+
+  /* Testemonials */
+
+#inov-team .title {
+  background-size: 60%;
+}
+
+ #inov-testemonials .title {
+  background-size: 100%;
+}
 
   
 }
@@ -34,8 +52,11 @@ body {
 
 /* Info */
 #inov-info {
-  width: 65%;
   margin: 60px  auto;
+}
+
+.text-lg-right {
+  text-align: right;
 }
 
 /* CTA */
@@ -102,7 +123,6 @@ body {
 /* Team */
 
 #inov-team {
-  width: 65%;
   margin: 60px auto;
 }
 
@@ -119,7 +139,6 @@ body {
 /* Testemonials */
 
 #inov-testemonials {
-  width: 65%;
   margin: 60px auto;
 }
 
