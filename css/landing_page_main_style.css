@@ -1,3 +1,11 @@
+@media (max-width: 640px) {
+  body {
+    font-size: 12px;
+  }
+
+  
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -105,7 +113,7 @@ body {
 }
 
 #inov-team .team-member {
-  height: 500px;
+  height: 100%;
 }
 
 /* Testemonials */
@@ -129,29 +137,36 @@ body {
 /* Pricing */
 
 #inov-pricing {
-  width: 65%;
   margin: 60px auto;
 }
 
 .pricing {
-  line-height: 2rem;
+  line-height: 2em;
+}
+
+.city {
+  font-size: 1.3em;
+}
+
+.city h3 {
+  font-size: 1.5em;
 }
 
 .pricing-date {
-  font-size: 4rem;
+  font-size: 4em;
   font-weight: bold; 
   margin-bottom: 0;
 }
 
 .pricing-month {
-  font-size: 2.6rem;
+  font-size: 2.6em;
   font-weight: bold;
 }
 
 .price-big {
   font-weight: 600;
-  font-size: 4rem;
-  line-height: 3rem;
+  font-size: 4em;
+  line-height: 1em;
 
 
 }
@@ -166,7 +181,7 @@ body {
 }
 
 .price-disable .price-big {
-  font-size: 3rem;
+  font-size: 2.5em;
 }
 
 .border-pricing {
@@ -198,6 +213,10 @@ body {
 .w-65 {
   width: 50%;
   margin: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .bold {
