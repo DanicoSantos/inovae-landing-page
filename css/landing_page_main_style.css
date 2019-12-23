@@ -1,32 +1,10 @@
-@media (max-width: 640px) {
-  html {
-    font-size: 12px;
-  }
-
-  body {
-    font-size: 12px;
-  }
-
-  .text-lg-right {
-  text-align: left;
-}
-
-  /* Testemonials */
-
-#inov-team .title {
-  background-size: 60%;
-}
-
- #inov-testemonials .title {
-  background-size: 100%;
-}
-
-  
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
+
+.title {
+  height: 40px;
 }
 
 /* Header */
@@ -52,7 +30,7 @@ body {
 
 /* Info */
 #inov-info {
-  margin: 60px  auto;
+  margin: 100px  auto;
 }
 
 .text-lg-right {
@@ -66,8 +44,7 @@ body {
   background-repeat: no-repeat; 
   background-size: cover;
   color: #ffffff;
-  margin-top: 60px;
-  margin-bottom: 60px;
+ margin: 100px auto;
   height: 300px;
   
 }
@@ -89,6 +66,7 @@ body {
 
 .btn {
   border-radius: 1rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Program */
@@ -96,34 +74,21 @@ body {
 #inov-program {
   background-image: url('/img/frame-program.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 750px 520px;
-  height: 700px;
-  margin: 60px auto;
+  background-position:  45% 35%;
+  background-size: 60% 520px;
+  height: 550px;
+  margin: 100px auto;
 }
 
-#inov-program .program-list {
-  width: 65%;
-}
-
-#inov-program .program-title {
-  position: relative;
-  right: 125px;
-  
-}
-
-
-.program-list ul li {
-  margin-top: 20px;
+#inov-program ul li {
   margin-bottom: 20px;
-  margin-right: 200px;
   font-size: 1.2rem;
 }
 
 /* Team */
 
 #inov-team {
-  margin: 60px auto;
+  margin: 100px auto;
 }
 
 #inov-team .title {
@@ -139,7 +104,7 @@ body {
 /* Testemonials */
 
 #inov-testemonials {
-  margin: 60px auto;
+  margin: 100px auto;
 }
 
 #inov-testemonials .title {
@@ -156,7 +121,7 @@ body {
 /* Pricing */
 
 #inov-pricing {
-  margin: 60px auto;
+  margin: 100px auto;
 }
 
 .pricing {
@@ -213,6 +178,27 @@ body {
   box-shadow: 1px 5px 20px #0000003a;
 }
 
+/* Help */
+
+#inov-help .title {
+  background-image: url('/img/help-icon.png');
+  background-repeat: no-repeat;  
+}
+
+.help-email {
+  font-size: 1.5em;
+}
+
+/* Footer */
+
+#inov-footer {
+  height: 350px;
+}
+
+.site a {
+  color: #000000;
+  font-size: 1.3em;
+}
 
 
 /* Utilities */
@@ -245,4 +231,53 @@ body {
 .border-thick {
   border-width: 2px !important;
   border-color: #000000 !important;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  .text-lg-right {
+  text-align: left;
+}
+
+  /* Testemonials */
+
+#inov-team .title {
+  background-size: 60%;
+}
+
+ #inov-testemonials .title {
+  background-size: 100%;
+}
+
+#inov-help .title {
+ background-size: 70%;
+  
+}
+
+/* Program */
+
+#inov-program {
+  background-image: url('/img/frame-program-sm.png');
+  background-repeat: no-repeat;
+  background-position:  left top;
+  background-size: 100% 520px;
+  margin: 100px auto;
+}
+
+#inov-program ul li {
+  margin-bottom: 5px;
+}
+
+#inov-program h2 {
+font-size: 1.4em;
+}
+
+  
 }
