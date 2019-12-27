@@ -20,12 +20,12 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#inov-cta">
     <header id="inov-header">
         <section id="inov-banner" class="container-fluid">
             <div class="row h-full">
                 <div class="col-lg-5 offset-lg-2 bg-yellow h-full py-4">
-                    <div class="d-flex flex-column justify-content-between h-full">
+                    <div class="d-flex flex-column justify-content-between h-full ">
                         <div class="d-flex justify-content-end">
                             <img src="img/post-it.png" class="img-responsive" alt="post-its"
                                 style="width: 50px; height: 35px;">
@@ -57,13 +57,15 @@
             <div class="col-lg-8 offset-lg-2 col-10 offset-1 px-0">
                 <div class="row">
                     <div class="col-lg-7 col-12">
-                        <img src="img/chart-inov.png" alt="Gráfico" style="width: 80px;">
-                        <p class="mt-3">
-                            Este curso é para quem cansou de repetir as mesmas
-                            coisas e quer aprender novos métodos para gerir
-                            reuniões, trabalhar de forma mais efetiva e alcançar
-                            melhores resultados
-                        </p>
+                        <div class="info-item w-full ">
+                            <img src="img/chart-inov.png" alt="Gráfico" style="width: 80px;">
+                            <p class="mt-3">
+                                Este curso é para quem cansou de repetir as mesmas
+                                coisas e quer aprender novos métodos para gerir
+                                reuniões, trabalhar de forma mais efetiva e alcançar
+                                melhores resultados
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -138,7 +140,7 @@
                             class="bold">RESULTADOS</span> DAS
                         SUAS REUNIÕES</h3>
 
-                    <a href="#" class="btn btn-light bold">inscreva-se</a>
+                    <a href="#inov-pricing" class="btn btn-light bold">inscreva-se</a>
                 </div>
             </div>
         </div>
@@ -452,17 +454,18 @@
                 <div class="">
                     <div class="d-flex flex-row justify-content-between align-items-center ">
                         <div class="icons d-flex justify-content-between">
-                            <i class="fa fa-instagram"></i>
-                            <i class="fa fa-linkedin"></i>
+                            <img src="img/instagram.png" alt="Instagram" style="width: 50px;">
+                            <a href="#"><img src="img/linkedin.png" alt="Linkedin" style="width: 50px;"></a>
                         </div>
                         <div class="site">
-                            <a href="#">inovaegestao.com</a>
+                            <a href="http://inovaegestao.com" target="blank">inovaegestao.com</a>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+
     </footer>
 
 
@@ -470,17 +473,17 @@
 
 
 
-    <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="js/landing_page_main_script.js"></script>
 </body>
 
 </html>
